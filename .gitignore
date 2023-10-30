@@ -1,0 +1,23 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+
+#secret
+.env
+eas.json
+google-services.json
+pc-api-6459053313601508581-273-245eb8df13f2.json
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*

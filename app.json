@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "wePlugU",
+    "slug": "wePlugU",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/appstore.png",
+    "scheme": "com.tiisetso-mmaboko.weplugu",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/custom_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/0900a5ec-6e5b-4e3c-9615-b0ecdc1c93fe"
+    },
+    "ios": {
+      "icon": "./assets/appstore.png",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.tiisetso-mmaboko.weplugu",
+      "buildNumber": "3",
+      "usesIcloudStorage": true,
+      "supportsTablet": true
+    },
+    "android": {
+      "icon": "./assets/playstore.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/playstore.png",
+        "backgroundColor": "#ffffff"
+      },
+      "versionCode": 5,
+      "package": "com.tiisetso_mmaboko.weplugu",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0900a5ec-6e5b-4e3c-9615-b0ecdc1c93fe"
+      }
+    },
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "tiisetso_mmaboko"
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
