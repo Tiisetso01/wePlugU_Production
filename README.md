@@ -6,8 +6,11 @@
 The foremost objective of wePlugU app is to create a centralized platform for South African students from both universities and colleges, to make it easier than ever before for them to buy and sell products/services between themselves, Donate items to their fellow students, find tutors, buy and sell notes, posts events happening around campuses. We also extend opportunities to local small businesses that are located near/closer to institutions, to sell their products and services to the student community, to ease the burden of searching and make it easier to compare prices of local businesses.
 
 **Technologies used:**
+
     • React Native (expo managed)
+    
     • Supabase (Backend)
+    
     • Firebase (for Android in-messaging notifications)
 
 
